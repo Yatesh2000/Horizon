@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+
+
+
+
+    <div id="loader" class="h-screen w-full bg-neutral-800 text-white flex items-center justify-center absolute top-0 left-0 z-40">    
+        <div id="load" class="flex items-start justify-center overflow-hidden text-white">
+            <h1 class="text-8xl">H</h1>
+            <h2 class="text-8xl font-normal">S</h2>
+            <div id="load-circle" class="h-5 w-5 bg-white rounded-full">
+
+            </div>
+        </div>
+    </div>
+
+   
+     
+
+
+
+    <div id="main">
+        <div id="page1" class="min-h-screen w-full bg-neutral-800 relative z-10">
+
+
+            
+            <nav class="h-16 w-full flex items-center justify-between py-5 px-10 relative z-50 overflow-hidden text-black">
+                <div id="part1" class="part1 flex items-start">
+                    <h1 class="font-extrabold text-4xl leading-8">H</h1>
+                    <h1 class="font-light text-4xl ml--3 leading-8">S</h1>
+                    <div id="part1-circle" class="h-1.5 w-1.5 rounded bg-neutral-900"></div>
+                </div>
+
+                <h3 class="part1 text-lg font-normal text-neutral-800 text-end w-1/5">EST-<span class="text-lg font-semibold text-neutral-800">2010</span></h3>
+
+                <div id="part3" class="part1 flex items-start justify-center gap-x-4">
+
+                    <h2 class="text-xs font-light">1.</h2>
+                    <div id="part3-div" class="flex items-start gap-2">
+                        <h5 class="text-base font-medium uppercase text-neutral-800">Home /</h5>
+                        <h2 class="text-xs font-light">2.</h2>
+                    </div>
+
+                    <div id="part3-div" class="flex items-start gap-2">
+                        <h5 class="text-base font-medium uppercase text-neutral-800">Studio/</h5>
+                        <h2 class="text-xs font-light">3.</h2>
+                    </div>
+
+                    <h4 class="text-base font-medium uppercase text-neutral-800">Service</h4> 
+
+                </div>
+
+                <i class="ri-menu-2-line part1 text-3xl font-normal w-1/10 text-end"></i>
+            </nav>
+
+        
+            <div id="line" class="h-0.5 w-0 bg-neutral-700 bg-opacity-25 relative z-50"></div>
+
+
+
+            <div id="container" class="w-full flex items-start justify-center mt-80 relative z-50 overflow-hidden">
+                <h1 class="font-semibold uppercase text-neutral-800">Horizon</h1>
+                <h1 id="studio" class=" uppercase text-neutral-800 font-light">Studio</h1>
+                <div id="container-circle" class="h-6 w-6 rounded-full bg-neutral-800 mt-8 relative z-50"></div>
+            </div>
+
+
+
+
+
+            <div id="lower-container" class="text-end overflow-hidden relative z-50 mt-20px">
+                <h5 class="text-18px font-normal text-end mr-10  bg-opacity-20">LOS ANGELES,CA.</h5>
+            </div>
+
+
+
+            <!-- #page1 #image-div {
+                height: 100vh;
+                width: 100%;
+                position: relative;
+                z-index: 999;
+                margin-top: 30px;
+                text-align: end;
+             }
+             
+             #image-div img {
+                height: 100%;
+                width: 0%;
+                object-fit: cover;
+             } */ -->
+
+            <div id="image-div" class="h-screen w-full relative z-50 mt-8 flex items-center justify-end ">
+                <img class="h-full w-0 object-cover text-end" src="https://assets-global.website-files.com/6594c68e852eed392813f26c/65968d19211871302df255cc_home-img-07-p-2000.webp" alt="">
+            </div>
+           
+  
+     
+            
+            <div class="page1-div h-0 w-1/4 bg-white absolute left-0 top-0" id="one"></div>
+            <div class="page1-div h-0 w-1/4 bg-white absolute inset-x-1/4 bottom-0" id="two"></div>
+            <div class="page1-div h-0 w-1/4 bg-white absolute inset-x-2/4 top-0" id="three"></div>
+            <div class="page1-div  h-0 w-1/4 bg-white absolute inset-x-3/4 bottom-0" id="four"></div>
+
+        </div>
+    </div>
+
+ 
+    <script src="https://cdn.tailwindcss.com"></script>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
